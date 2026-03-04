@@ -1,4 +1,4 @@
-# :stars: STAR: Speech-to-Audio Generation via Representation Learning
+# :stars: STAR: End-to-End Speech-to-Audio Generation via Speech Semantic Representation Bridging
 [![githubio](https://img.shields.io/badge/GitHub.io-Audio_Samples-blue?logo=Github&style=flat-square)](https://AnonymousGit0.github.io/STAR)
 
 This work presents **STAR**, the first end-to-end speech-to-audio generation framework, designed to enhance efficiency and address error propagation inherent in cascaded systems. 
@@ -48,6 +48,7 @@ python src/sta_generation/evaluation/star.py --gen_audio_dir {generated_audio_fo
 
 ## Acknowledgement
 Our code referred to the [WavLM](https://github.com/microsoft/unilm/tree/master/wavlm), [fairseq](https://github.com/facebookresearch/fairseq), [DAC](https://github.com/descriptinc/descript-audio-codec), [SECap](https://github.com/thuhcsi/SECap), [HEAR](https://hearbenchmark.com/). We appreciate their open-sourcing of their code.
+
 
 
 
